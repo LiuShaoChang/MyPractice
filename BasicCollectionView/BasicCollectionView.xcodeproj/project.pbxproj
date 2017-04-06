@@ -12,6 +12,10 @@
 		80DAFB491E62764600C89A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DAFB471E62764600C89A42 /* Main.storyboard */; };
 		80DAFB4B1E62764600C89A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DAFB4A1E62764600C89A42 /* Assets.xcassets */; };
 		80DAFB4E1E62764600C89A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DAFB4C1E62764600C89A42 /* LaunchScreen.storyboard */; };
+		80DAFBC81E67B88000C89A42 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DAFBC61E67B88000C89A42 /* CustomCell.swift */; };
+		80DAFBC91E67B88000C89A42 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DAFBC71E67B88000C89A42 /* CustomCell.xib */; };
+		80DAFBCC1E67E1E500C89A42 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DAFBCA1E67E1E500C89A42 /* MyViewController.swift */; };
+		80DAFBCD1E67E1E500C89A42 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DAFBCB1E67E1E500C89A42 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		80DAFB4A1E62764600C89A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DAFB4D1E62764600C89A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80DAFB4F1E62764600C89A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DAFBC61E67B88000C89A42 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		80DAFBC71E67B88000C89A42 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		80DAFBCA1E67E1E500C89A42 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		80DAFBCB1E67E1E500C89A42 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				80DAFB431E62764600C89A42 /* AppDelegate.swift */,
 				80DAFB451E62764600C89A42 /* ViewController.swift */,
+				80DAFBCA1E67E1E500C89A42 /* MyViewController.swift */,
+				80DAFBCB1E67E1E500C89A42 /* MyViewController.xib */,
+				80DAFBC61E67B88000C89A42 /* CustomCell.swift */,
+				80DAFBC71E67B88000C89A42 /* CustomCell.xib */,
 				80DAFB471E62764600C89A42 /* Main.storyboard */,
 				80DAFB4A1E62764600C89A42 /* Assets.xcassets */,
 				80DAFB4C1E62764600C89A42 /* LaunchScreen.storyboard */,
@@ -124,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DAFBC91E67B88000C89A42 /* CustomCell.xib in Resources */,
 				80DAFB4E1E62764600C89A42 /* LaunchScreen.storyboard in Resources */,
+				80DAFBCD1E67E1E500C89A42 /* MyViewController.xib in Resources */,
 				80DAFB4B1E62764600C89A42 /* Assets.xcassets in Resources */,
 				80DAFB491E62764600C89A42 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DAFB461E62764600C89A42 /* ViewController.swift in Sources */,
+				80DAFBC81E67B88000C89A42 /* CustomCell.swift in Sources */,
+				80DAFBCC1E67E1E500C89A42 /* MyViewController.swift in Sources */,
 				80DAFB441E62764600C89A42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +316,7 @@
 				80DAFB541E62764600C89A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
